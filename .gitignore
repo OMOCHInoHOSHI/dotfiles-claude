@@ -1,0 +1,6 @@
+# 全無視 → 明示的に許可したものだけ追跡
+/*
+!/.gitignore
+!/CLAUDE.md
+!/agents/
+!/settings.json
