@@ -1,12 +1,4 @@
 {
-  "model": "opusplan",
-  "enabledPlugins": {
-    "gopls-lsp@claude-plugins-official": true
-  },
-  "alwaysThinkingEnabled": true,
-  "effortLevel": "high",
-  "tui": "fullscreen",
-  "theme": "light",
   "permissions": {
     "deny": [
       "Read(**/.env)",
@@ -19,5 +11,13 @@
       "Edit(**/.env)",
       "Edit(**/.env.local)"
     ]
-  }
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "tui": "fullscreen",
+  "theme": "light"
 }
