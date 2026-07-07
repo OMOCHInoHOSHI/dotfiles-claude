@@ -1,5 +1,8 @@
 {
   "model": "opusplan",
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true
+  },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "tui": "fullscreen",
