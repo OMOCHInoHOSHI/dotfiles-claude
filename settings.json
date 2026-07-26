@@ -6,8 +6,6 @@
       "Read(**/.env.development)",
       "Read(**/.env.production)",
       "Read(**/.env.test)",
-      "Write(**/.env)",
-      "Write(**/.env.local)",
       "Edit(**/.env)",
       "Edit(**/.env.local)"
     ]
