@@ -3,6 +3,7 @@
 
 # 明示的に許可
 !/.gitignore
+!/.gitattributes
 !/CLAUDE.md
 !/agents/
 !/settings.json
