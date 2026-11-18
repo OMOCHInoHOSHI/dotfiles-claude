@@ -47,6 +47,12 @@ git config filter.strip-local.smudge cat
 git config filter.strip-local.required true
 ```
 
+#### Windows（ネイティブ）の場合
+
+- `~/.claude` は `C:\Users\<ユーザー>\.claude`。Git Bash からなら上の手順がそのまま使える。
+- フィルタに使う `jq` は Git Bash に入っていないので、先に `winget install jqlang.jq` で入れて、ターミナルを開き直す。
+  （`filter.strip-local.required true` のため、jq が無いと add / commit が失敗する）
+
 #### 注意事項
 
 - **フィルタ設定を忘れない**: 未設定のままだと、Orca などが書き込んだ hooks を含む `settings.json` がそのままコミットできてしまう（このリポジトリは PUBLIC）。クローン直後に上の3行を実行する。
